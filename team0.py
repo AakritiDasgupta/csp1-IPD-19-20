@@ -7,10 +7,11 @@
 ####
 
 team_name = 'Team 0' # Only 10 chars displayed.
-strategy_name = 'The name the team gives to this strategy'
-strategy_description = 'How does this strategy decide?'
+strategy_name = 'retaliate then collude'
+strategy_description = 'it will betray until it finds a collude. Then it will collude'
     
 def move(my_history, their_history, my_score, their_score):
+  my_history[-1] = 
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
